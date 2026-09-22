@@ -1,0 +1,4 @@
+def add (x,y):
+    return x + y
+z = add(5,6)
+bill = add(7,9)
