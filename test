@@ -1,4 +1,35 @@
-def add (x,y):
-    return x + y
-z = add(5,6)
-bill = add(7,9)
+# def add (x,y):
+#     return x + y
+# z = add(5,6)
+# bill = add(7,9)
+
+# boolean isValid = true Determines if something is true or false and changes the action
+
+# rain = False
+# if rain == false:
+#     print("Dont bring umbrella")
+# else:
+#     print("Bring umbrella")
+
+# age = 66
+# if age >65:
+#     print("senior citizen")
+# elif age>18:
+#     print("Adult")
+# else:
+#     print("Child")
+
+# has_key=False
+# is_magic = True
+# if(has_key or is_magic):
+#     print("Enter Castle")
+# else:
+#     print ("Cannot enter")
+
+values = [1,2.23,5,7,2,30,15]
+print(values)
+for i in values:
+    print(i)
+
+print(values[0])
+print(values[6])
