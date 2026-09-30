@@ -26,10 +26,21 @@
 # else:
 #     print ("Cannot enter")
 
-values = [1,2.23,5,7,2,30,15]
-print(values)
-for i in values:
-    print(i)
+# values = [1,2.23,5,7,2,30,15]
+# print(values)
+# for i in values:
+#     print(i)
 
-print(values[0])
-print(values[6])
+# print(values[0])
+# print(values[6])
+
+# User_sentence = input("Input a sentence")
+
+def Spaces(n,y,t):
+    count = 0
+    for i in range(n):
+        if y[i] == 'C' and t[i]=='C':
+            count += 1
+    print(count)
+
+Spaces(5,"CC..C",".CC..")
