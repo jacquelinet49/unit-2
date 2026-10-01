@@ -36,11 +36,34 @@
 
 # User_sentence = input("Input a sentence")
 
-def Spaces(n,y,t):
-    count = 0
-    for i in range(n):
-        if y[i] == 'C' and t[i]=='C':
-            count += 1
-    print(count)
+# """ def Spaces(n,y,t):
+#     count = 0
+#     for i in range(n):
+#         if y[i] == 'C' and t[i]=='C':
+#             count += 1
+#     print(count)
 
-Spaces(5,"CC..C",".CC..")
+# Spaces(5,"CC..C",".CC..") """
+
+# """ values = [1,2.23,5,7,2,30,15]
+# print(values)
+# for i in values:
+#     print(i)
+
+# print(values[0])
+# print(values[6]) """
+
+
+user_sentence= input("Please enter a sentence.")
+print("You typed:", user_sentence)
+user_sentence(0<user_sentence<10000)
+# if s>t, print(French text)
+# if S>t, print(French text)
+# if t<s, print(English text)
+# if T<S, print(English text)
+
+if "s" and "S" > "t" and "T":
+    print(English)
+
+if "t" and "T" > "s" and "S":
+    print(French)
