@@ -1,10 +1,24 @@
-values = [1,2.23,5,7,2,30,15]
-print(values)
-for i in values:
-    print(i)
+# values = [1,2.23,5,7,2,30,15]
+# print(values)
+# for i in values:
+#     print(i)
 
-x = "this is a thing"
-y= x.split( )
-z = y[0]
-print(y)
-print(z)
+# x = "this is a thing"
+# y= x.split( )
+# z = y[0]
+# print(y)
+# print(z)
+
+total = float(input("How much was your bill?"))
+tip = [ 1.00, 1.20, 1.25, 1.30]
+service = input("How's the service? (Bad, Normal, Good, Fantastic)")
+service = input("Choice: ")
+print("The bill is $")
+if service == "Bad":
+    print(tip[0]*total)
+elif service == "Normal":
+    print(tip[1]*total)
+elif service == "Good":
+    print(tip[2]*total)
+elif service == "Fantastic":
+    print(tip[3]*total)
