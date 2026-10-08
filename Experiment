@@ -1,0 +1,6 @@
+age: int = 10
+name: str = "Bob"
+# :10 is an annotation to tell our code age is an integer which helps us determine errors in future code
+
+#F-Strings
+print("Name:" + name + ", Age:" + str(age))
