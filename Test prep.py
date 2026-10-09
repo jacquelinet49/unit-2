@@ -36,3 +36,4 @@ name: str = "Bob"
 
 #F-Strings
 print("Name:" + name + ", Age:" + str(age))
+
