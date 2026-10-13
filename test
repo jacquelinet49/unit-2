@@ -97,14 +97,22 @@ def wizards(N, start, duels):
     # if duels[0][1] == owner:
     #     owner = duels[0][0]
     #     changed_hands += 1
-    # print(owner)
-
+    # print(owner)  
     for i in range(N):
         print(duels[0][0])
         if duels[i][1] == owner:
             owner = duels[i][0]
             changed_hands += 1
+            #Change the first letter of the duel pair to i to increase it, changing the letter being challenged
     print(owner, changed_hands)
 
 
 wizards(3, "A", ["BA", "CB", "DA"])
+
+def epidemic(p, n, r):
+    epidemic(750,1,5)
+
+#On the index card
+# sample call function
+# sample define function
+# sample loop
