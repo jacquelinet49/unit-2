@@ -1,0 +1,38 @@
+# def spaces(N, y, t):
+#     count = 0
+#     for i in range (n):
+#         if y[i] == "C" and t[i] == "C":
+#               count+=0
+              
+# spaces(5, CC..C, .CC..)
+# print(count)
+
+# N = input("Please enter a sentence.")
+# print("You typed:", N)
+# if "s" and "S" > "t" and "T":
+#     print(English)
+
+# if "t" and "T" > "s" and "S":
+#     print(French)
+
+# N(0<N<10000)
+# # if s>t, print(French text)
+# # if S>t, print(French text)
+# # if t<s, print(English text)
+# # if T<S, print(English text)
+
+# if "s" and "S" > "t" and "T":
+#     print(English)
+
+# if "t" and "T" > "s" and "S":
+#     print(French)
+
+def language(N, sentence):
+    sentence = input("What text do u want to check?")
+    for i in range(N):
+        if "T" + "t" > "s" + "S":
+            print("English")
+        if "S" + "s" > "T" + "t":
+            print("French")
+        if "S" + "s" == "T" + "t":
+            print("French")
