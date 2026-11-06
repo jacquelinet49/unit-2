@@ -11,10 +11,13 @@ while n>0:
     #n eventually becomes 0 while sum becomes 15
 print(sum)
 
-age = int(input("How old are you?"))
-future = 0
-while age>0:
-    future+=age
-    age +=1
-print(future)
+#Infinite while loop
+n = 100
+while True:
+    print(n)
+    n-=1
 
+while True:
+    line = input("Enter the line(type "q" to quit): ")
+    if line == q:
+        break
